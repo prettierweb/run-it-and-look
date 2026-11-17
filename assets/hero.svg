@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="430" viewBox="0 0 860 430" role="img" aria-label="The verify skill in a terminal: it starts the app, looks at the changed screen, runs only the past-breakage checks that match the diff, and reports with a screenshot">
+<style>text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;font-size:15px;white-space:pre}</style>
+<rect x=".5" y=".5" width="859" height="429" rx="12" fill="#1F1D1A" stroke="#3A3631"/>
+<path d="M12.5 .5h835a12 12 0 0 1 12 12V40H.5V12.5a12 12 0 0 1 12-12z" fill="#2A2724"/>
+<circle cx="24" cy="20" r="6" fill="#D97757"/><circle cx="44" cy="20" r="6" fill="#C9B79C"/><circle cx="64" cy="20" r="6" fill="#4A453F"/>
+<text x="430" y="25" fill="#8C8273" text-anchor="middle" style="font-size:13px">~/shop — claude</text>
+<text x="28" y="78" fill="#F0E6D8"><tspan fill="#D97757">&gt;</tspan> fixed the cart total. done?</text>
+<text x="28" y="116" fill="#F0E6D8"><tspan fill="#D97757">●</tspan> verify</text>
+<text x="52" y="142" fill="#8C8273">start   <tspan fill="#F0E6D8">npm run dev</tspan>                    <tspan fill="#7E9A5A">ready :5173</tspan></text>
+<text x="52" y="166" fill="#8C8273">quick   <tspan fill="#F0E6D8">npm run build</tspan>                  <tspan fill="#7E9A5A">ok, 14s</tspan></text>
+<text x="52" y="190" fill="#8C8273">look    <tspan fill="#F0E6D8">/cart at 375px and 1280px</tspan>      <tspan fill="#7E9A5A">2 screenshots</tspan></text>
+<text x="52" y="226" fill="#8C8273">VERIFY.md  <tspan fill="#F0E6D8">2 of 9 breakages match this diff</tspan></text>
+<text x="76" y="250" fill="#8C8273">touches cart/*  → <tspan fill="#F0E6D8">totals with a coupon add up</tspan>    <tspan fill="#7E9A5A">✓</tspan></text>
+<text x="76" y="274" fill="#8C8273">touches *.css   → <tspan fill="#F0E6D8">no sideways scroll on phone</tspan>    <tspan fill="#D97757">✗</tspan></text>
+<text x="52" y="310" fill="#8C8273">fix 1 of 3  <tspan fill="#F0E6D8">coupon row overflowed at 375px</tspan>  <tspan fill="#7E9A5A">✓</tspan></text>
+<text x="28" y="356" fill="#F0E6D8">Cart total fixed and checked on phone and desktop.</text>
+<text x="28" y="380" fill="#F0E6D8">The coupon row was spilling off the phone screen; fixed. Screenshots below.</text>
+<text x="28" y="404" fill="#8C8273">Not checked: checkout with a saved card.</text>
+</svg>
