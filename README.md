@@ -2,6 +2,8 @@
   <img src="assets/hero.svg" width="860" alt="The verify skill in a terminal: it starts the app, looks at the changed screen, runs only the past-breakage checks that match the diff, and reports with a screenshot">
 </p>
 
+<p align="center">⭐ if you like this, please star it, it really helps people find it ⭐</p>
+
 <p align="center">
   A skill that makes your coding agent <b>run the thing and look at it</b><br>
   before it tells you it's done.
